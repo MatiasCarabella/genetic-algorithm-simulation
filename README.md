@@ -39,11 +39,11 @@ Java Development Kit (JDK) 8 or higher
 ## How it works
 
 The program follows these steps:
-- Generates an initial random binary string of 20 digits.
-- Evaluates the fitness of the string using the function H(x) = ∑ x*2.
-- Generates a second random string and performs a crossover operation.
-- If the new string has a higher fitness, it becomes the new primary string.
-- Repeats steps 3-4 until the optimal solution (all 1's) is reached.
+1. Generates an initial random binary string of 20 digits.
+2. Evaluates the fitness of the string using the function H(x) = ∑ x*2.
+3. Generates a second random string and performs a crossover operation.
+4. If the new string has a higher fitness, it becomes the new primary string.
+5. Repeats steps 3-4 until the optimal solution (all 1's) is reached.
 
 The program outputs each improvement in the evolution process and the total number of iterations needed to reach the optimal solution.
 

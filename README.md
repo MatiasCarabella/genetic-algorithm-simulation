@@ -29,11 +29,11 @@ Java Development Kit (JDK) 8 or higher
 
 1. Compile the Java file:
   ```
-  javac AlgoritmoGenetico.java
+  javac GeneticAlgorithm.java
   ```
 2. Run the program:
   ```
-  java AlgoritmoGenetico
+  java GeneticAlgorithm
   ```
 
 ## How it works
